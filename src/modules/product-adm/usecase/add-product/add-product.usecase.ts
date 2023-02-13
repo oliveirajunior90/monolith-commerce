@@ -5,11 +5,11 @@ import { AddProductInputDto, AddProductOutputDto } from "./add-product.dto";
 
 export default class AddProductUseCase {
     private _productRepository: ProductGateway;
-  
+
     constructor(_productRepository: ProductGateway) {
       this._productRepository = _productRepository;
     }
-  
+
     async execute(input: AddProductInputDto): Promise<AddProductOutputDto> {
       const props = {
         id: new Id(input.id),
@@ -18,11 +18,10 @@ export default class AddProductUseCase {
         purchasePrice: input.purchasePrice,
         stock: input.stock,
       };
-  
+
       const product = new Product(props);
-      console.log('furfles', product);
-      this._productRepository.add(product);
-      console.log('furflessss')
+      await this._productRepository.add(product);
+
       return {
         id: product.id.id,
         name: product.name,
