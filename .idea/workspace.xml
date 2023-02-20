@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df5a058b-9de9-4a93-9495-b6e59c9fe198" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/@shared/domain/value-object/address/address.value-object.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/domain/invoice/invoice.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/domain/invoice/invoice.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/domain/product/product.entity.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/factory/facade.factory.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/gateway/invoice.gateway.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/repository/product-invoice.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/find-invoice/find-invoice.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/find-invoice/find-invoice.usecase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/find-invoice/find-invoice.usecase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/generate-invoice/generate-invoice.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/generate-invoice/generate-invoice.usecase.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/invoice/usecase/generate-invoice/generate-invoice.usecase.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/product-adm/facade/product-admin.facade.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/product-adm/facade/product-admin.facade.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/product-adm/factory/facade.factory.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/product-adm/factory/facade.factory.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LyY1mz7viuXPPtz2GZhdQK13oI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs.jest.jest_package": "/Users/almir.junior/Desktop/projects/curso/ddd-commerce/node_modules/jest",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "/Users/almir.junior/Desktop/projects/curso/ddd-commerce/node_modules/typescript/lib"
+  }
+}]]></component>
+  <component name="RunManager" selected="Jest.InvoiceFacadeTest.should find invoice">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="$USER_HOME$/.nvm/versions/node/v16.15.1/bin/node" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceFacadeTest" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.js" />
+      <test-names>
+        <test-name value="InvoiceFacadeTest" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceFacadeTest.should find invoice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.js" />
+      <test-names>
+        <test-name value="InvoiceFacadeTest" />
+        <test-name value="should find invoice" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceFacadeTest.should generate invoice" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.js" />
+      <test-names>
+        <test-name value="InvoiceFacadeTest" />
+        <test-name value="should generate invoice" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="InvoiceRepository test.should find invoice " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/invoice/repository/invoice.repository.spec.ts" />
+      <test-names>
+        <test-name value="InvoiceRepository test" />
+        <test-name value="should find invoice " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductAdmFacadeTest.should check product stock" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/modules/product-adm/facade/product-admin.facade.spec.ts" />
+      <test-names>
+        <test-name value="ProductAdmFacadeTest" />
+        <test-name value="should check product stock" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.InvoiceRepository test.should find invoice " />
+      <item itemvalue="Jest.ProductAdmFacadeTest.should check product stock" />
+      <item itemvalue="Jest.InvoiceFacadeTest" />
+      <item itemvalue="Jest.InvoiceFacadeTest.should find invoice" />
+      <item itemvalue="Jest.InvoiceFacadeTest.should generate invoice" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.InvoiceFacadeTest.should find invoice" />
+        <item itemvalue="Jest.InvoiceFacadeTest.should generate invoice" />
+        <item itemvalue="Jest.InvoiceFacadeTest" />
+        <item itemvalue="Jest.InvoiceRepository test.should find invoice " />
+        <item itemvalue="Jest.ProductAdmFacadeTest.should check product stock" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df5a058b-9de9-4a93-9495-b6e59c9fe198" name="Changes" comment="" />
+      <created>1676844577658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676844577658</updated>
+      <workItem from="1676844581783" duration="7647000" />
+      <workItem from="1676903320076" duration="13125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product-adm/factory/facade.factory.ts</url>
+          <line>10</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product-adm/usecase/add-product/add-product.usecase.ts</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product-adm/usecase/add-product/add-product.usecase.ts</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/product-adm/repository/product/product.repository.ts</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/modules/invoice/facade/invoice.facade.spec.js</url>
+          <line>112</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

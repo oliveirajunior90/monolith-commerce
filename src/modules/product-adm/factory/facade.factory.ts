@@ -10,7 +10,7 @@ export default class ProductAdmFacadeFactory {
         const checkStockUseCase = new CheckStockUseCase(productRepository);
         const productFacade = new ProductAdmFacade({
             addUseCase: addProductUseCase,
-            checkStockUseCase: checkStockUseCase,
+            checkStockUseCase,
         });
 
         return productFacade;
